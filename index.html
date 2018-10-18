@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rexinla</title>
+    <!--STYLESHEET-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Archivo+Black" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <!--JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!--BOOTSTRAP-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</head>
+<body>
+        <!--Root div-->
+        <div class="box container-fluid">
+            <!--Navbar section-->
+            <div class="container position-relative pt-5" id="navbar_container">
+                <nav class="navbar navbar-expand-lg">
+                        
+                        <a class="navbar-brand" href="index.html">
+                            <h2 class="proj_title text-white">Rexinla</h2>
+                        </a>
+                    
+                        <button class="navbar-toggler border-white custom-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="text-white"><i class="fas fa-bars"></i></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                        <a class="nav-link" href="#">Contact</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Team</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Booking</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">FAQ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <span class="btn p-2 pr-4 pl-4 sign_in">Sign in</span>
+                                </li>
+                            </ul>
+                        </div>
+                </nav>
+            </div>
+
+            <!--About us section-->
+            <div class="container about">
+                <div class="row mt-8 about_div">
+
+                    <div class="col-md-8">
+                        <div> 
+                            <h1 class="about_us display-4 heading_size">We Are Creative Smart Agency</h1>
+                            <p class="w-75 lorem_opacity">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic temporibus adipisci, eaque aperiam optio qui facilis quod, beatae molestiae provident ea quis sed maiores unde eos non cumque saepe quia?
+                            </p>
+                        </div>
+                        <span class="btn p-3 pr-4 pl-4 font-weight-bold view_projects">View Projects</span>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="sign_up text-dark p-3">
+                        <h3 class="p-2 font-weight-bold">Let's connect with us</h3>
+                        <p class="p-2 lorem_color">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div>
+                                <div class="input-group">
+                                        <span class="form_icons">
+                                            <i class="fas fa-user"></i>
+                                        </span>
+                                        <input type="text" class="input_color" placeholder="Full Name" />
+                                </div>
+
+                                <div class="input-group">
+                                        <span class="form_icons">
+                                            <i class="fas fa-envelope"></i>
+                                        </span>
+                                        <input type="text" class="input_color" placeholder="Email Address" />
+                                </div>
+
+                                <div class="input-group">
+                                        <span class="form_icons">
+                                            <i class="fas fa-phone"></i>
+                                        </span>
+                                        <input type="text"  class="input_color" placeholder="Phone Number" />
+                                </div>
+                       
+                            <div class="btn get_start text-center mt-3 p-3 d-block">
+                               <strong>Get Started</strong>
+                            </div>
+                        </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!--Service section-->
+        <div class="service text-dark mt-8 container">
+
+                <div>
+                    <h2 class="text-center heading_size">Our Services</h2>
+                    <p class="text-center lorem_color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo dolorem repellat odit eveniet nesciunt qui quidem, eius illo necessitatibus libero culpa nisi architecto nobis veniam ad, earum vitae? Iste, quibusdam!</p>
+                </div>
+
+                <div class="container text-center" id="service_cards">
+                                <div class="card">
+                                        <div class="card-body">
+                                            <span class="home-icon icon_size"><i class="fas fa-home"></i></span>
+                                            <h4 class="card-title text-center mt-3 title_size">Smart Home</h4>
+                                            <p class="card-text text-center lorem_color">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam illo rem quidem magni ipsa 
+                                            </p>
+                                        </div>
+                                </div>
+                                <div class="card security_card ml-4">
+                                        <div class="card-body">
+                                            <span class="security-icon icon_size"><i class="fas fa-shield-alt"></i></span>
+                                            <h4 class="card-title text-center mt-3 title_size">Security Control</h4>
+                                            <p class="card-text text-center lorem_color">
+                                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint recusandae repellat dolores veniam tempore 
+                                            </p>
+                                        </div>
+                                </div>
+                                <div class="card support_card ml-4">
+                                        <div class="card-body">
+                                            <span class="shield-icon icon_size"><i class="fas fa-user-shield"></i></span>
+                                            <h4 class="card-title text-center mt-3 title_size">Technical Supports</h4>
+                                            <p class="card-text text-center lorem_color">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ipsam excepturi quos rerum similique 
+                                            </p>
+                                        </div>
+                                </div>
+                </div>
+
+        </div>
+
+        <!--Choose us-->
+        <div class="container-fluid mt-7 text-dark choose_us">
+            <div class="row choose_us_div">
+
+                <div class="col-md-6 choose_us_reason">
+                    <div class="w-75">
+                        <h2 class="heading_size">Why Choose Us</h2>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic temporibus adipisci, eaque aperiam optio qui facilis quod, beatae molestiae provident ea quis sed maiores unde eos non cumque saepe quia?
+                        </p>
+                    </div>
+                    <div class="btn w-25 explore_btn font-weight-bold p-3 text-center">
+					Explore Us
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="solution w-100">
+									<div class="es_box">
+                                            <div class="row">
+                                                    <div class="col-md-2">
+                                                            <span class="icon_position icon_size icon_color"><i class="far fa-lightbulb"></i></span>
+                                                    </div>
+                                                    <div class="col-md-10 es_box_content mt-2">
+                                                            <p class="es_box_title"><strong>Easy Solution</strong></p>
+                                                        <p>Eibendum curabitur rhoncus morbi rhonus</p>
+                                                    </div>
+                                            </div>
+                                    </div>
+									<div class="es_box">
+                                            <div class="row">
+                                                    <div class="col-md-2">
+                                                            <span class="icon_position icon_size icon_color"><i class="fas fa-rocket"></i></span>
+                                                    </div>
+                                                    <div class="col-md-10 es_box_content mt-2">
+                                                            <p class="es_box_title"><strong>Easy Solution</strong></p>
+                                                        <p>Eibendum curabitur rhoncus morbi rhonus</p>
+                                                    </div>
+                                            </div>
+                                    </div>
+									<div class="es_box">
+                                            <div class="row">
+                                                    <div class="col-md-2">
+                                                            <span class="icon_position icon_size icon_color"><i class="fas fa-cog"></i></span>
+                                                    </div>
+                                                    <div class="col-md-10 es_box_content mt-2" >
+                                                            <p class="es_box_title"><strong>Easy Solution</strong></p>
+                                                        <p>Eibendum curabitur rhoncus morbi rhonus</p>
+                                                    </div>
+                                            </div>
+                                    </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!--Project gallery-->
+        <div class="container text-dark mt-7">
+
+                <div>
+                    <h2 class="text-center heading_size">Our Project Gallery</h2>
+                    <p class="text-center lorem_color lorem_opacity">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo dolorem repellat odit eveniet nesciunt qui quidem, eius illo necessitatibus libero culpa nisi architecto nobis veniam ad, earum vitae? Iste, quibusdam!</p>
+                </div>
+
+                <div id="project_gallery" class="carousel slide" data-ride="carousel">
+
+                        <!-- Indicators -->
+                        <ul class="carousel-indicators">
+                          <li data-target="#project_gallery" data-slide-to="0" class="active"></li>
+                          <li data-target="#project_gallery" data-slide-to="1"></li>
+                        </ul>
+                        
+                        <!-- The slideshow -->
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                              <div class="row">
+                                    <div class="col-md-4">
+                                        <img src="img/i1.jpeg" alt="Los Angeles">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="img/i2.jpg" alt="Chicago">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="img/i3.jpg" alt="New York">
+                                    </div>
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                                    <div class="row">
+                                          <div class="col-md-4">
+                                              <img src="img/i2.jpg" alt="Los Angeles" >
+                                          </div>
+                                          <div class="col-md-4">
+                                              <img src="img/i3.jpg" alt="Chicago" >
+                                          </div>
+                                          <div class="col-md-4">
+                                              <img src="img/i1.jpeg" alt="New York" >
+                                          </div>
+                                    </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Left and right controls -->
+                        <a class="carousel-control-prev" href="#project_gallery" data-slide="prev">
+                          <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#project_gallery" data-slide="next">
+                          <span class="carousel-control-next-icon"></span>
+                        </a>
+                </div>
+        </div>
+        
+        <!--Our effort-->
+        <div class="container-fluid text-dark mt-7">
+                <div>
+                    <h2 class="text-center heading_size">How We Work for You</h2>
+                    <p class="text-center lorem_color lorem_opacity mx-auto w-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo dolorem repellat odit eveniet nesciunt qui quidem, eius illo necessitatibus libero culpa nisi architecto nobis veniam ad, earum vitae? Iste, quibusdam!</p>
+                </div>
+                <div class="w-100 position-relative">
+                    <img src="img/b1.jpeg" alt="hel" width="100%" height="550">
+                    <div class="overlay">
+						<div class="text-center text-white mx-auto">
+							<h3 class="w-50 mx-auto"><q>A dream doesn't become reality through magic; it takes sweat, determination and hard work</h3>
+							
+								<span class="btn play_btn mx-auto"><i class="fas fa-play"></i></span>
+							
+						</div>
+						
+					</div>
+                </div>
+        </div>
+		
+		<!--Clients opinion-->
+        <div class="container clients_opinion mt-7 text-dark">
+                        <div>
+                            <h2 class="text-center heading_size">Clients Opinions</h2>
+                            <p class="text-center lorem_color lorem_opacity">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo dolorem repellat odit eveniet nesciunt qui quidem, eius illo necessitatibus libero culpa nisi architecto nobis veniam ad, earum vitae? Iste, quibusdam!</p>
+                        </div>
+                        
+                            
+                        <div id="opinion_gallery" class="carousel slide mt-5"  data-ride="carousel">
+        
+                                <!-- Indicators -->
+                                <ul class="carousel-indicators">
+                                  <li data-target="#opinion_gallery" data-slide-to="0" class="active"></li>
+                                  <li data-target="#opinion_gallery" data-slide-to="1"></li>
+                                  <li data-target="#opinion_gallery" data-slide-to="2"></li>
+                                </ul>
+                                
+                                <!-- The slideshow -->
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                      <div class="row mt-5 mb-5">
+
+                                            <div class="col-md-4 person_div">
+                                                    <div class="card person_one">
+                                                            <div class="card-body">
+                                                                <div class="row">
+                                                                        <div class="col-md-4">
+                                                                            <div class="img_parent">
+                                                                                <img src="p1.jpg" alt="p1">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-8 person_place">
+                                                                            
+                                                                                <span class="lorem_color" style="position:absolute;left:40%">San fransisco</span><br>
+                                                                                <div class="row" style="position:absolute;left:50%;color: #fd681e">
+                                                                                        <span><i class="fas fa-star"></i></span>
+                                                                                        <span><i class="fas fa-star"></i></span>
+                                                                                        <span><i class="fas fa-star"></i></span>
+                                                                                        <span><i class="fas fa-star"></i></span>
+                                                                                        <span><i class="fas fa-star-half-alt"></i></span>
+                                                                                </div> 
+                                                                        </div>
+                                                                </div>
+                                                                <div class="row p-3">
+                                                                  <h4><strong>Mark Zuckerberg</strong> </h4> 
+                                                                </div>
+                                                                <div class="row p-3">
+                                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium esse voluptate velit.
+                                                                </div>
+                                                            </div>
+                                                    </div>
+                                            </div>
+                                            <div class="col-md-4 person_div">
+                                                    <div class="card person_two">
+                                                            <div class="card-body">
+                                                                    <div class="row">
+                                                                            <div class="col-md-4">
+                                                                                <div class="img_parent">
+                                                                                        <img src="p1.jpg" alt="p1" > 
+                                                                                </div>
+                                                                                   
+                                                                            </div>
+                                                                            <div class="col-md-8 person_place">
+                                                                                   <span class="lorem_color" style="position:absolute;left:40%">San fransisco</span><br>
+                                                                                   <div class="row" style="position:absolute;left:50%;color:#fd681e">
+                                                                                        <span><i class="fas fa-star"></i></span>
+                                                                                        <span><i class="fas fa-star"></i></span>
+                                                                                        <span><i class="fas fa-star"></i></span>
+                                                                                        <span><i class="fas fa-star"></i></span>
+                                                                                        <span><i class="fas fa-star-half-alt"></i></span>
+                                                                                </div>
+                                                                            </div>
+                                                                    </div>
+                                                                    <div class="row p-3">
+                                                                            <h4><strong>Mark Zuckerberg</strong> </h4> 
+                                                                    </div>
+                                                                    <div class="row p-3">
+                                                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium esse voluptate velit.
+                                                                    </div>
+                                                            </div>
+                                                    </div>
+                                            </div>
+                                            <div class="col-md-4 person_div">
+                                                    <div class="card person_three">
+                                                            <div class="card-body">
+                                                                    <div class="row">
+                                                                            <div class="col-md-4">
+                                                                                <div class="img_parent">
+                                                                                        <img src="p1.jpg" alt="p1"> 
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-md-8 person_place">
+                                                                                    <span class="lorem_color" style="position:absolute;left:40%">San fransisco</span><br>
+                                                                                    <div class="row" style="position:absolute;left:50%;color:#fd681e">
+                                                                                            <span><i class="fas fa-star"></i></span>
+                                                                                            <span><i class="fas fa-star"></i></span>
+                                                                                            <span><i class="fas fa-star"></i></span>
+                                                                                            <span><i class="fas fa-star"></i></span>
+                                                                                            <span><i class="fas fa-star-half-alt"></i></span>
+                                                                                    </div>
+                                                                            </div>
+                                                                    </div>
+                                                                    <div class="row p-3">
+                                                                      <h4><strong>Mark Zuckerberg</strong> </h4> 
+                                                                    </div>
+                                                                    <div class="row p-3">
+                                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium esse voluptate velit.
+                                                                    </div>
+                                                            </div>
+                                                    </div>
+                                            </div>
+                                      </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Left and right controls -->
+                                <a class="carousel-control-prev" href="#opinion_gallery" data-slide="prev">
+                                  <span class="carousel-control-prev-icon client_opinion_prev"></span>
+                                </a>
+                                <a class="carousel-control-next" href="#opinion_gallery" data-slide="next">
+                                  <span class="carousel-control-next-icon client_opinion_next"></span>
+                                </a>
+                              </div>
+                        
+        
+        </div>
+        
+
+        <!--Footer-->
+        <div class="container-fluid footer">
+            <div class="container">
+                   
+                         <div class="row mt-5">
+                             <div class="col-md-3 mt-5">
+                                    <ul class="list-unstyled">
+                                            <li ><h2>Services</h2></li>
+                                            <li class="footer_link lorem_opacity">Download</li>
+                                            <li class="footer_link lorem_opacity">Smart Home</li>
+                                            <li class="footer_link lorem_opacity">Product & Services</li>
+                                            <li class="footer_link lorem_opacity">Technical Supports</li>
+                                            <li class="footer_link lorem_opacity">Warranty</li>
+                                    </ul>
+                             </div>
+                             <div class="col-md-3 mt-5">
+                                    <ul class="list-unstyled">
+                                            <li ><h2>Important Links</h2></li>
+                                            <li class="footer_link lorem_opacity">Contact</li>
+                                            <li class="footer_link lorem_opacity">Live Chat</li>
+                                            <li class="footer_link lorem_opacity">Careers</li>
+                                            <li class="footer_link lorem_opacity">Privacy</li>
+                                    </ul>
+                             </div>
+                             <div class="col-md-3 mt-5">
+                                    <ul class="list-unstyled">
+                                            <li><h2>Community</h2></li>
+                                            <li class="footer_link lorem_opacity">Blogs</li>
+                                            <li class="footer_link lorem_opacity">Public Forum</li>
+                                            <li class="footer_link lorem_opacity">Product & Services</l>
+                                            <li class="footer_link lorem_opacity">Integrations</li>
+                                            <li class="footer_link lorem_opacity">Advertise</li>
+                                    </ul>
+                             </div>
+                             <div class="col-md-3 mt-5">
+                                     <ul class="list-unstyled">
+                                            <li><h2>Subscribe</h2></li>
+                                            <li class="lorem_opacity"> Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                            <li>
+                                                    <div class="input-group" style="padding:13px;border-radius:50px;border:1px solid white;margin-top:8%;background-color:white;">
+                                                            <span class="form_icons send_icon">
+                                                                    <i class="fas fa-arrow-right"></i>
+                                                            </span>
+                                                        <input type="text" placeholder="Email Address" class="input_color" style="color:white;border:none;background-color:transparent" />
+                                                    </div>
+                                            </li>
+                                     </ul>
+                             </div>
+                         </div>
+                    
+            </div>  
+        </div>
+
+
+
+        <script src="index.js"></script>
+</body>
+</html>
